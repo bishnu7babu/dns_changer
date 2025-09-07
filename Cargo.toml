@@ -1,0 +1,13 @@
+[package]
+name = "dns_changer"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+dialoguer = "0.11"    # For interactive prompts
+anyhow = "1.0"        # For error handling
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+sysinfo = "0.30"      # For system information
